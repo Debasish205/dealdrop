@@ -10,8 +10,8 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { getPriceHistory } from "@/app/actions";
 import { Loader2 } from "lucide-react";
+import { getPriceHistory } from "@/app/action";
 
 export default function PriceChart({ productId }) {
   const [data, setData] = useState([]);
